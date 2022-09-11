@@ -1,7 +1,7 @@
 import { KeyboardAvoidingView, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { TextInput } from 'react-native-gesture-handler'
-import { auth } from './firebase'
+import { auth } from '../firebase'
 import { useNavigation } from '@react-navigation/native'
 
 const LoginScreen = () => {
@@ -49,6 +49,7 @@ const LoginScreen = () => {
         <TextInput
           placeholder='Email'
           value={email}
+          autoCapitalize='none'
           onChangeText={text => setEmail(text)}
           style={styles.input}
         />
