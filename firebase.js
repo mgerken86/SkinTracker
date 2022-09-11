@@ -5,12 +5,12 @@ import * as firebase from "firebase";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAi4G2TQxOP6nLt-ZskRIH12XDzLFXT7lk",
-  authDomain: "fir-auth-e5563.firebaseapp.com",
-  projectId: "fir-auth-e5563",
-  storageBucket: "fir-auth-e5563.appspot.com",
-  messagingSenderId: "230092806099",
-  appId: "1:230092806099:web:c23f2387d0517f17350126"
+    apiKey: "AIzaSyCNbbTSxvKsECUTSM5SIMzC8EIYemlhXZU",
+    authDomain: "skintracker-cf772.firebaseapp.com",
+    projectId: "skintracker-cf772",
+    storageBucket: "skintracker-cf772.appspot.com",
+    messagingSenderId: "628061511036",
+    appId: "1:628061511036:web:b9b1d104a95bf5ecc858f9"
 };
 
 // Initialize Firebase
